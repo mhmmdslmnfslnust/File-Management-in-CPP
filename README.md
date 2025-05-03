@@ -84,6 +84,6 @@ This system supports a comprehensive set of command-line instructions:
 
 ## 📚 Documentation
 
-- **`UserGuide.md`** – Provides a detailed explanation and usage examples for all commands.
+- **`UserGuide.pdf`** – Provides a detailed explanation and usage examples for all commands.
 
 ---
