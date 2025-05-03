@@ -1,0 +1,8 @@
+Custom License
+
+Copyright © Muhammmad Suleman Faisal 2025
+
+Permission is granted to view and share this code for personal and non-commercial purposes only.
+You may not modify, distribute, reproduce, or use any part of this code in other projects or products without explicit written permission from the author.
+If you wish to collaborate or contribute to this project, please contact the author via the project's GitHub issues or other provided means.
+This software is provided "as is", without any warranty of any kind.
