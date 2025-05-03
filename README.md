@@ -36,8 +36,8 @@ The `sample.dat` file defines the initial file system layout using a structured 
 
 ```plaintext
 DIR root
-  FILE file1.txt HelloWorld
-  DIR documents
-    FILE notes.txt Meeting notes
-  ENDDIR
+FILE file1.txt HelloWorld
+DIR documents
+FILE notes.txt Meeting notes
+ENDDIR
 ENDDIR
