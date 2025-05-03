@@ -1,0 +1,15 @@
+FILE file02.txt 
+DIR Exampler
+FILE numbers_spaced.txt 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+FILE shorter.txt shorter
+DIR Directory01
+ENDDIR
+DIR Directory02
+ENDDIR
+ENDDIR
+DIR main
+FILE file.txt My name is Muhammad Suleman Faisal
+FILE group_members.txt Muhammad Suleman Faisal, Muhammad Hassaan Noor
+DIR submain
+ENDDIR
+ENDDIR
