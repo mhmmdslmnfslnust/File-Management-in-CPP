@@ -86,6 +86,4 @@ This system supports a comprehensive set of command-line instructions:
 
 - **`UserGuide.md`** – Provides a detailed explanation and usage examples for all commands.
 
-- **`SystemDesign.md`** *(optional)* – Describes internal class structure, logic, and design decisions for developers.
-
 ---
