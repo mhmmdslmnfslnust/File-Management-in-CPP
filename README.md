@@ -14,13 +14,13 @@ This project is a **C++-based command-line file system simulator**. It mimics a 
 ## 🚀 Running the Project
 
 1. Clone or download this repository.
-2. Compile and run the `tester.cpp` file.
+2. Compile and run the `main.cpp` file.
 
 ```bash
-g++ tester.cpp -o file_system
-./file_system
+g++ main.cpp -o modular_file_system
+./modular_file_system
 ```
-Ensure `sample.dat` is present in the same directory. This file loads the initial directory structure of the simulated file system.
+Ensure `sample.dat`, `File.h`,`Directory.h`,`FileSystem.h`and `CommandUtils.h` are present in the same directory. `sample.dat` file loads the initial directory structure of the simulated file system. While other four files are modular necessary for this system to work.
 
 ---
 
@@ -87,3 +87,39 @@ This system supports a comprehensive set of command-line instructions:
 - **`UserGuide.pdf`** – Provides a detailed explanation and usage examples for all commands.
 
 ---
+
+## 📦 Code Structure
+### `File.h`
+```cpp
+#pragma once
+class File { ... };
+```
+### `Directory.h`
+```cpp
+#pragma once
+#include "File.h"
+class Directory { ... };
+```
+### `FileSystem`
+```cpp
+#pragma once
+#include "Directory.h"
+class FileSystem { ... };
+```
+
+### `CommandUtil.h`
+```cpp
+#pragma once
+int levenshtein(...) {...};
+void suggestCommand(...) {...};
+vector<string> commands = {...};
+```
+
+### `main.cpp`
+```cpp
+#include "FileSystem.h"
+#include "CommandUtils.h"
+
+int main() {...}
+```
+
